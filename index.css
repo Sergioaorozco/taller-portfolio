@@ -1,3 +1,5 @@
+@import "./button.css";
+
 :root {
   --fontbase: "Poppins", sans-serif;
   --headline1: bold 95px/153.71px var(--fontbase);
@@ -17,6 +19,7 @@
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
   --purple: #310a90;
   --green: #42e2b8;
+  --white: #ffffff;
 }
 
 body {
