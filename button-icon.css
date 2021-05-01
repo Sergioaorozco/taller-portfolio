@@ -1,0 +1,9 @@
+.button-icon {
+  padding: 10px;
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+}
+
+.button-icon img {
+  vertical-align: middle;
+}
