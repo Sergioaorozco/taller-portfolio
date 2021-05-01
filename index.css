@@ -1,10 +1,22 @@
 :root {
+  --fontbase: "Poppins", sans-serif;
+  --headline1: bold 95px/153.71px var(--fontbase);
+  --headline2: bold 59px/95px var(--fontbase);
+  --headline3: bold 48px/77px var(--fontbase);
+  --headline4: bold 34px/55px var(--fontbase);
+  --headline5: bold 24px/38px var(--fontbase);
+  --body1: 16px/25px var(--fontbase);
+  --body2: 14px/22px var(--fontbase);
+  --button: bold 14px/22px var(--fontbase);
+  --caption: 12px/19px var(--fontbase);
   --gradient: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
       #747de9 0%,
       rgba(255, 255, 255, 0) 100%
     ),
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+  --purple: #310a90;
+  --green: #42e2b8;
 }
 
 body {
@@ -15,4 +27,9 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+}
+
+p {
+  font: var(--button);
+  color: var(--purple);
 }
