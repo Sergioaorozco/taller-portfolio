@@ -1,7 +1,11 @@
+.menu {
+  display: none;
+}
 .menu ul {
   display: flex;
   list-style: none;
   gap: 40px;
+  text-transform: uppercase;
 }
 
 .menu ul a {
@@ -12,4 +16,10 @@
 
 .menu ul a.is-active {
   color: var(--purple);
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: block;
+  }
 }
