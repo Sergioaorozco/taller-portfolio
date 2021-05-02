@@ -1,6 +1,7 @@
 @import './button.css';
 @import './button-icon.css';
 @import './header.css';
+@import './hero.css';
 
 :root {
   --fontbase: 'Poppins', sans-serif;
@@ -39,6 +40,7 @@ h1 > span {
   color: var(--purple);
 }
 
--myname {
-  font: var(--headline1);
+.Myname {
+  font: var(--headline3);
+  display: block;
 }
