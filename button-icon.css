@@ -1,6 +1,7 @@
 .button-icon {
   padding: 10px;
   border: 2px solid var(--purple);
+  background: var(--white);
   border-radius: 4px;
 }
 
