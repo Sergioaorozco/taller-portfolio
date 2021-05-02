@@ -46,3 +46,13 @@
     max-inline-size: 450px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .hero-image img {
+    inline-size: 500px;
+    block-size: auto;
+  }
+  .hero-image {
+    align-items: center;
+  }
+}
