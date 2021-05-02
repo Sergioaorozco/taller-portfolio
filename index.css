@@ -1,9 +1,9 @@
-@import "./button.css";
-@import "./button-icon.css";
-@import "./header.css";
+@import './button.css';
+@import './button-icon.css';
+@import './header.css';
 
 :root {
-  --fontbase: "Poppins", sans-serif;
+  --fontbase: 'Poppins', sans-serif;
   --headline1: bold 95px/153.71px var(--fontbase);
   --headline2: bold 59px/95px var(--fontbase);
   --headline3: bold 48px/77px var(--fontbase);
@@ -32,4 +32,13 @@ body {
 p {
   font: var(--body2);
   color: var(--purple);
+}
+
+h1 > span {
+  font: var(--headline5);
+  color: var(--purple);
+}
+
+-myname {
+  font: var(--headline1);
 }
