@@ -10,6 +10,7 @@
   text-transform: uppercase;
   border: none;
   text-decoration: none;
+  text-align: center;
 }
 
 .button.secondary {

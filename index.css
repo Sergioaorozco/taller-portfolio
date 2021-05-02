@@ -28,19 +28,6 @@
 body {
   background: var(--gradient);
   min-block-size: 100vh;
-}
-
-p {
-  font: var(--body2);
+  font: var(--body1);
   color: var(--purple);
-}
-
-h1 > span {
-  font: var(--headline5);
-  color: var(--purple);
-}
-
-.Myname {
-  font: var(--headline3);
-  display: block;
 }
