@@ -4,6 +4,7 @@
 @import './hero.css';
 @import './wrapper.css';
 @import './menu.css';
+@import './testimony.css';
 
 :root {
   --fontbase: 'Poppins', sans-serif;
@@ -16,7 +17,7 @@
   --body2: 14px/22px var(--fontbase);
   --button: bold 14px/22px var(--fontbase);
   --caption: 12px/19px var(--fontbase);
-  --gradient: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+  --gradient: linear-gradient(135deg, #fec163 10%, #de4313 100%);
 
   --green: #42e2b8;
   --white: #ffffff;

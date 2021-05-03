@@ -10,6 +10,11 @@
   padding-block-end: 24px;
 }
 
+.hero-image img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
 .hero-image {
   text-align: center;
 }
