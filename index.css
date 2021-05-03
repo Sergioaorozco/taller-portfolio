@@ -16,15 +16,11 @@
   --body2: 14px/22px var(--fontbase);
   --button: bold 14px/22px var(--fontbase);
   --caption: 12px/19px var(--fontbase);
-  --gradient: radial-gradient(
-      41.48% 11.48% at 2.38% 8.52%,
-      #747de9 0%,
-      rgba(255, 255, 255, 0) 100%
-    ),
-    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
-  --purple: #310a90;
+  --gradient: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+
   --green: #42e2b8;
   --white: #ffffff;
+  --purple: #000;
 }
 
 body {
