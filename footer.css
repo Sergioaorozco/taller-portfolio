@@ -9,8 +9,33 @@
   display: none;
 }
 
-@media screen and (min-width=768px) {
+.footer-copyright p {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-logo {
+    display: block;
+  }
+
   .footer {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block-start: 30px;
+    padding-block-end: 30px;
+  }
+
+  .footer .social {
+    order: 3;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-copyright {
+    display: flex;
+    margin: 0;
+    gap: 8px;
   }
 }

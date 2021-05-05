@@ -7,6 +7,7 @@
 @import './testimony.css';
 @import './social.css';
 @import './footer.css';
+@import './forms.css';
 
 :root {
   --fontbase: 'Poppins', sans-serif;
