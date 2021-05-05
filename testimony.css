@@ -21,6 +21,7 @@
   .testimony {
     display: flex;
     align-items: center;
+    gap: 30px;
     padding-block-start: 60px;
     padding-block-end: 60px;
   }

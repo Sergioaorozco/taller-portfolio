@@ -1,11 +1,19 @@
 .header {
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  block-size: 80px;
   position: sticky;
   top: 0;
   backdrop-filter: blur(10px);
   width: 100%;
+}
+
+.header-content {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  block-size: 80px;
+}
+
+.header .wrapper {
+  padding: 0;
 }
