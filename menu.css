@@ -10,12 +10,12 @@
 
 .menu ul a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--purple);
   font: var(--button);
 }
 
 .menu ul a.is-active {
-  color: var(--purple);
+  text-shadow: 1px 1px 1px var(--white);
 }
 
 @media screen and (min-width: 768px) {
