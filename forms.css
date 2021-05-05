@@ -1,9 +1,23 @@
-.forms {
+.forms-content {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  max-inline-size: 540px;
+  margin: auto;
 }
 
+.forms {
+  margin-block-end: 80px;
+}
+.forms .title {
+  margin: 0;
+}
+
+.forms p {
+  color: var(--white);
+  margin: 0;
+  text-align: center;
+}
 .forms label {
   display: flex;
   flex-direction: column;
@@ -20,4 +34,11 @@
   padding-block-end: 16px;
   font: var(--body1);
   margin-block-start: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .forms .title {
+    align-self: stretch;
+    text-align: center;
+  }
 }

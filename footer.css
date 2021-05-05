@@ -1,4 +1,4 @@
-.footer {
+.footer-content {
   color: var(--white);
   text-align: center;
 }
@@ -18,12 +18,12 @@
     display: block;
   }
 
-  .footer {
+  .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block-start: 30px;
-    padding-block-end: 30px;
+    margin-block-start: 30px;
+    margin-block-end: 30px;
   }
 
   .footer .social {
