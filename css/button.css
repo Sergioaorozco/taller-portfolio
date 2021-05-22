@@ -1,0 +1,33 @@
+.button {
+  background: var(--gradient);
+  color: var(--onyx);
+  font: var(--button);
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 13px;
+  padding-block-end: 13px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.button.second {
+  background: var(--slate);
+  border: 2px solid var(--slate);
+  color: var(--cloud);
+}
+
+.button.third {
+  background: var(--slate);
+  border: 2px solid var(--gold);
+  color: var(--cloud);
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background: var(--cloud);
+    color: var(--onyx);
+  }
+}

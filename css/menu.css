@@ -1,21 +1,22 @@
 .menu {
   display: none;
 }
+
 .menu ul {
   display: flex;
   list-style: none;
   gap: 40px;
-  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.menu ul :hover {
+  color: var(--gold);
 }
 
 .menu ul a {
   text-decoration: none;
-  color: var(--purple);
+  color: var(--cloud);
   font: var(--button);
-}
-
-.menu ul a.is-active {
-  text-shadow: 1px 1px 1px var(--white);
 }
 
 @media screen and (min-width: 768px) {

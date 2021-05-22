@@ -1,132 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Taller-portafolio</title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Designer - Sergio Orozco</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./icons/favicon_01.svg" type="image/svg" sizes="any">
+</head>
+<body id="inicio">
     <header class="header">
-      <div class="wrapper">
-        <div class="header-content">
-          <img src="./images/logo-02.svg" width="40px" height="auto" alt="Logo del header" />
-          <nav aria-label="main-nav"class="menu">
-            <ul>
-              <li>
-                <a class="is-active" href="#main">Hola</a>
-              </li>
-              <li>
-                <a href="#project">Proyectos</a>
-              </li>
-              <li>
-                <a href="#contact">Hablemos</a>
-              </li>
-            </ul>
-          </nav>
-          <a target="_blank" class="button" href=https://drive.google.com/file/d/1QouwxdIerX9ALqnZ2pxDco94w0By0iu1/view?usp=sharing>Curriculum</a>
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./icons/logo-nav.svg"  width="28px" height="auto" alt="isotipo sergio orozco">
+                <div class="header-nav">
+                    <nav  class="menu">
+                        <ul>
+                            <li>
+                                <a href="#inicio">Inicio</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#portafolio">Portafolio</a>
+                            </li>
+                            <li>
+                                <a href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a target="_blank" class="button" href="https://drive.google.com/file/d/1yGeZFs_IHNL3yz0R3l5oxwNZyGI0TYso/view?usp=sharing">Curriculum</a>
+                    </div>
+               </div>
         </div>
-      </div>
-    
+
     </header>
+    <!--Wrapper-->
     <div class="wrapper">
-      <section aria-label="main-section" class="hero" id="main">
-        <div class="hero-image">
-          <img src="./images/profile.png" width="338" hieght="330" alt="profile jaume">
-        </div>
-        <div class="hero-description">
-          <h1><span>Hola a Todos,</span><span>Soy Checho</span>
-        </h1>
-          <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
-          <div class="social">
-            <a class="button-icon"href="3007869517"><img src="./icons/icon-phone.svg"></a>
-            <a class="button-icon"href="3007869517"><img src="./icons/icon-twitter.svg"></a>
-            <a class="button-icon"href="3007869517"><img src="./icons/icon-instagram.svg"></a>
-            <a class="button-icon"href="3007869517"><img src="./icons/icon-important_mail.svg"></a>
-         </div>
-         <a target="_blank" href=https://drive.google.com/file/d/1QouwxdIerX9ALqnZ2pxDco94w0By0iu1/view?usp=sharing class="button">Descargar Curriculum</a>
-        </div>
-      </section>
       
-      <div class="testimony" id="project">
-        <div class="testimony-image">
-          <img src="./images/leonidas-esteban.png" width="500px" height="auto" alt="imagen testimonio 1">  
-        </div>
-        <div class="testimony-description">
-          <a class="title" href=https://www.sergiorozco.com/>Ilustraciones</a>
-          <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
-          <a target="_blank" href="#" class="button secondary">Ver código</a>
-          <a target="_blank" href=https://www.sergiorozco.com/ class="button">ver proyecto</a>
-        </div>
-      </div>
-      <div class="testimony">
-        <div class="testimony-image">
-          <img src="./images/marvol.png" width="400px" height="auto" alt="imagen testimonio 1">  
-        </div>
-        <div class="testimony-description">
-          <a class="title" href=https://www.sergiorozco.com/>Redil Junior</a>
-          <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
-          <a target="_blank" href="https://www.sergiorozco.com/" class="button secondary">Ver código</a>
-          <a target="_blank" href=https://www.sergiorozco.com/ class="button">ver proyecto</a>
-        </div>
-      </div>
-      <div class="testimony">
-        <div class="testimony-image">
-          <img src="./images/netnet.png" width="500px" height="auto" alt="imagen testimonio 1">  
-        </div>
-        <div class="testimony-description">
-          <a class="title" href=https://www.sergiorozco.com/>Arenas de Zanzíbar</a>
-          <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
-          <a target="_blank" href=https://www.sergiorozco.com/ class="button secondary">Ver código</a>
-          <a target="_blank" href=https://www.sergiorozco.com/ class="button">ver proyecto</a>
-        </div>
-      </div>
-      <form action="" method="POST" class="forms" id=contact>
-        <div class="forms-content">
-          <h2 class="title">Hablemos</h2>
-          <p>
-            Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
-          </p>
-          <label for="form-name">nombre completo
-  
-            <input required name="name" id="form-name" type="text" placeholder="escribe tu nombre">
-          </label>
-          <label for="form-email">correo electrónico
-  
-            <input required name="email" id="form-email" type="email" placeholder="escribe tu correo">
-          </label>
-          <label for="form-message">Mensaje
-  
-            <textarea required name="message" id="form-message" cols="30" rows="7"placeholder="Mensaje"></textarea>
-          </label>
-          <button class="button" type="submit">Enviar mensaje</button>
-        </div>
-      </form>
-      <footer class="footer">
-        <div class="footer-content">
-          <div class="social">
-            <a class="button-icon"href="3007869517"><img src="./icons/icon-phone.svg"></a>
-            <a class="button-icon"href="3007869517"><img src="./icons/icon-twitter.svg"></a>
-            <a class="button-icon"href="3007869517"><img src="./icons/icon-instagram.svg"></a>
-            <a class="button-icon"href="3007869517"><img src="./icons/icon-important_mail.svg"></a>
-         </div>
-         <div class="footer-logo">
-           <img src="./images/logo-02.svg" alt="logo sergio orozco para el footer" width="40px" height="auto">
-         </div>
-         <div class="footer-copyright">
-           <p>Hecho con el ❤️ por Leo.  Copyright 2021 - </p>
-           <p>Todos los derechos reservados.</p>
-    
-         </div>
-    
+        <!--Main section-->
+        <main class="hero">
+            <div class="hero-image">
+                <img src="./images/Profile-main.png"  alt="imagen de perfil">
+            </div>
+            <div class="hero-description">
+                <img class="logo-main" src="./icons/LogoMain.svg" alt="logo completo sergio orozco">
+                <h1>Hola, soy Sergio <span>Front-end Designer</span></h1>
+            <div class="social">
+                <a target="_blank" class="button-icon" href="https://api.whatsapp.com/send?phone=573007869517"><img src="./icons/Whatsapp.svg" alt="logo Whatsapp"></a>
+                <a target="_blank" class="button-icon" href="https://github.com/Sergioaorozco"><img src="./icons/Github.svg" alt="logo github"></a>
+                <a target="_blank" class="button-icon" href="https://www.behance.net/sergioaorozco"><img src="./icons/Behance.svg" alt="logo Behance"></a>
+                <a target="_blank" class="button-icon" href="https://www.linkedin.com/in/sergiorozco/"><img src="./icons/Linkedin_01.svg" alt="logo LinkedIn" width="36px"></a>
+
+            </div>
+            <a target="_blank" href="https://drive.google.com/file/d/1yGeZFs_IHNL3yz0R3l5oxwNZyGI0TYso/view?usp=sharing" class="button">Descargar Curriculum</a>
+            </div>
+        </main>
+        <!--Portfolio-->
+        <section class=projects>
+            <!--Proyecto 1-->
+            <div class="portafolio" id="portafolio">
+             <img src="./images/ecommerce.png" alt="Imagen portafolio Purahome">
+                <div class="project">
+                <h3>Pura Home - <span>Propuesta conceptual</span></h3>
+                <hr>
+                <p>Propuesta de diseño de un sitio web de comercio electrónico de productos de mobiliario y decoración para el hogar. Contiene 4 prototipos de alta fidelidad y una vista móvil del sitio. <span>Incluye: Design System y diagramas de flujo.</span></p> 
+                <!-- <a target="_blank" href="#" class="button third">Ver código</a> -->
+                <a target="_blank" href="https://www.figma.com/file/ZWv9QTsRyfoor4DqegGleh/Pura-Home-Propuesta-conceptual?node-id=0%3A1" class="button third">Ver en figma</a>
+                </div>
+            </div>
+                  </section>
+        <section class="contacto" id="contacto">
+                <form action="" method="POST" class="form">
+                <h1>Hablemos</h1>
+                <p>El camino hacia la exploración comienza con un primer paso, acércate y pronto recibirás respuesta.</p>
+                <div>
+                    <label for="form-name">Nombre Completo</label>
+                    <input required name="name" id="form-name" type="text" placeholder="Escribe tu nombre">
+                </div>
+                <div>
+                    <label for="form-email">Correo electrónico</label>
+                    <input required name="email" id="form-email" type="email" placeholder="Escribe tu correo electrónico">
+                </div>
+                <div>
+                    <label for="form-message">Mensaje</label>
+                   <textarea required name="message" id="form-message" cols="30" rows="7" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <div>
+                    <button class="button" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./icons/LogoMain.svg"  width="150x" height="auto" alt="isotipo sergio orozco">   
+                    <div class="footer-legal">
+                        <p>Sergio Orozco® | 2021</p>
+                        <p>Todos los derechos reservados.</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <a target="_blank" class="button-icon" href="https://api.whatsapp.com/send?phone=573007869517"><img src="./icons/Whatsapp.svg" alt="logo whatsapp"></a>
+                    <a target="_blank" class="button-icon" href="https://github.com/Sergioaorozco"><img src="./icons/Github.svg" alt="logo github"></a>
+                    <a target="_blank" class="button-icon" href="https://www.behance.net/sergioaorozco"><img src="./icons/Behance.svg" alt="logo Behance"></a>
+                    <a target="_blank" class="button-icon" href="https://www.linkedin.com/in/sergiorozco/"><img src="./icons/Linkedin_01.svg" alt="logo LinkedIn" width="36px"></a>
+                </div>
+            </div>
         </footer>
-        </div>
     </div>
-  </body>
+    </body>
 </html>

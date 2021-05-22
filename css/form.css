@@ -1,0 +1,42 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    gap: 16px;
+    max-inline-size: 750px;
+    margin:auto;
+    flex: 1;
+}
+
+.form p,h1{
+    text-align: center;
+    max-inline-size: 400px;
+    margin: auto;
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form label{
+    font: var(--form);
+}
+
+.form input, .form textarea{
+    border: 2px solid var(--slate);
+    border-radius: 8px;
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+    padding-block-start: 12px;
+    padding-block-end: 12px;
+    font: var(--body1);
+    margin-block-start: 6px;
+}
+
+@media screen and (min-width: 768px){
+    .form {
+        align-self: stretch;
+    }
+}

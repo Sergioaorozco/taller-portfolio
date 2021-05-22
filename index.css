@@ -1,36 +1,49 @@
-@import './button.css';
-@import './button-icon.css';
-@import './header.css';
-@import './hero.css';
-@import './wrapper.css';
-@import './menu.css';
-@import './testimony.css';
-@import './social.css';
-@import './footer.css';
-@import './forms.css';
-@import './title.css';
+@import './css/menu.css';
+@import './css/button.css';
+@import './css/button-icon.css';
+@import './css/header.css';
+@import './css/wrapper.css';
+@import './css/hero.css';
+@import './css/social.css';
+@import './css/portfolio.css';
+@import './css/footer.css';
+@import './css/form.css';
 
 :root {
-  --fontbase: 'Poppins', sans-serif;
-  --headline1: bold 95px/153.71px var(--fontbase);
-  --headline2: bold 59px/95px var(--fontbase);
-  --headline3: bold 48px/77px var(--fontbase);
-  --headline4: bold 34px/55px var(--fontbase);
+  --fontbase: 'Noto Sans', sans-serif;
+  --headline1: bold 60px/87px var(--fontbase);
+  --headline2: 40px/54px var(--fontbase);
+  --headline3: bold 24px/33px var(--fontbase);
+  --headline4: 34px/55px var(--fontbase);
   --headline5: bold 24px/38px var(--fontbase);
-  --body1: 16px/25px var(--fontbase);
-  --body2: 14px/22px var(--fontbase);
-  --button: bold 14px/22px var(--fontbase);
-  --caption: 12px/19px var(--fontbase);
-  --gradient: linear-gradient(135deg, #fec163 10%, #de4313 100%);
+  --body1: 16px/22px var(--fontbase);
+  --button: bold 16px/22px var(--fontbase);
+  --form: bold 14px/22px var(--fontbase);
 
-  --green: #42e2b8;
-  --white: #ffffff;
-  --purple: #000;
+  --gradient: linear-gradient(
+    to right,
+    #fdc830,
+    #f37335
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --darkg: linear-gradient(
+    to bottom,
+    #000000,
+    #181818
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  --onyx: #000000;
+  --slate: #202020;
+  --cloud: #ffffff;
+  --gold: #fdc830;
 }
 
 body {
-  background: var(--gradient);
-  min-block-size: 100vh;
+  background: var(--darkg);
+  background-size: cover;
+  min-height: 100vh;
   font: var(--body1);
-  color: var(--purple);
-}
+  color: var(--cloud);
+  margin: 0;
+  }
+
+

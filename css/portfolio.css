@@ -1,0 +1,60 @@
+.portafolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-block-end: 30px;
+}
+
+.portafolio img {
+  max-inline-size: 90%;
+  block-size: auto;
+}
+
+.portafolio-image {
+  text-align: end;
+}
+
+.project {
+  max-inline-size: 600px;
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  gap: 15px;
+  text-align: center;
+}
+
+.project span {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.portafolio hr {
+  padding: 0;
+  border: 0;
+  height: 1px;
+  border-top: 1px solid var(--gold);
+  width: 100%;
+}
+
+.portafolio h3 {
+  margin: 0;
+}
+
+.portafolio p {
+  margin-block-start: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .portafolio {
+    flex-direction: row;
+  }
+
+  .project {
+    max-inline-size: 600px;
+  }
+
+  .portafolio img {
+    max-inline-size: 60%;
+  }
+}
